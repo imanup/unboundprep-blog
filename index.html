@@ -1,6 +1,43 @@
 ---
 layout: default
 ---
+
+{% assign posts_count = paginator.posts | size %}
+<div class="home">
+  {% if posts_count > 0 %}
+    <div class="posts">
+
+        <ul class="flex-container">
+               {% for post in paginator.posts %}
+          <li class="flex-item">
+              <a href="{{ post.url | prepend: site.baseurl }}" class=""><p class=""><strong>{{ post.title }}</strong></p></a>
+              <hr class="title-hr">
+              <span class="post-summary">
+            {% if post.summary %}
+              {{ post.summary | truncate: 100}}
+            {% else %}
+              {{ post.excerpt | truncate: 100}}
+            {% endif %}
+          </span>
+          <p><small>{{post.date  | date_to_string}}</small></p>
+          </li>
+        {% endfor %}
+        </ul>
+
+    </div>
+        {% include pagination.html %}
+  {% else %}
+    <h1 class='center'>{{ site.text.index.coming_soon }}</h1>
+  {% endif %}
+</div>
+
+
+
+
+
+
+<!-- 
+
 {% assign posts_count = paginator.posts | size %}
 
 <div class="home">
@@ -26,3 +63,4 @@ layout: default
     <h1 class='center'>{{ site.text.index.coming_soon }}</h1>
   {% endif %}
 </div>
+ -->
