@@ -9,9 +9,12 @@ layout: default
 
         <ul class="flex-container">
                {% for post in paginator.posts %}
+        <a href="{{ post.url | prepend: site.baseurl }}" class="index-link">
           <li class="flex-item">
-              <a href="{{ post.url | prepend: site.baseurl }}" class=""><p class=""><strong>{{ post.title }}</strong></p></a>
+              <p class=""><strong>{{ post.title }}</strong></p>
+              
               <hr class="title-hr">
+              
               <span class="post-summary">
             {% if post.summary %}
               {{ post.summary | truncate: 100}}
@@ -19,8 +22,10 @@ layout: default
               {{ post.excerpt | truncate: 100}}
             {% endif %}
           </span>
-          <p><small>{{post.date  | date_to_string}}</small></p>
+
+          <p class="index-meta"><small>{{post.date  | date_to_string}}<span>{{post.author}}</span></small></p>
           </li>
+          </a>
         {% endfor %}
         </ul>
 

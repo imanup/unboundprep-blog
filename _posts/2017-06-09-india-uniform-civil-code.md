@@ -3,6 +3,7 @@ layout:     post
 title:      Why India needs a uniform civil code
 summary:    The Union Law Ministry recently asked the Law Commission to examine in detail all issues pertaining to the Uniform Civil Code and submit a report to the government. With this, issues related to the implementation of UCC across India have once again come to the fore.
 categories: 
+author: Devashish Rawat
 ---
 
 The Union Law Ministry recently asked the Law Commission to examine in detail all issues pertaining to the Uniform Civil Code and submit a report to the government. With this, issues related to the implementation of UCC across India have once again come to the fore.
