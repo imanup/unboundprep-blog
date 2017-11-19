@@ -3,7 +3,7 @@ layout:     post
 title:      India should become world’s first cashless country!
 summary:    Tax evasion has been a hot-button political issue in India for at least a decade. In a bid to evade taxes, many Indians deposit their money in illegal offshore accounts. In this regard, an investigative team of retired judges appointed by the government handed in the fifth of its reports recently.
 categories: 
-author: Anushka Sharma
+author: Anushka Varma
 ---
 
 Tax evasion has been a hot-button political issue in India for at least a decade. In a bid to evade taxes, many Indians deposit their money in illegal offshore accounts. In this regard, an investigative team of retired judges appointed by the government handed in the fifth of its reports recently.
