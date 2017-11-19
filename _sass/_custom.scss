@@ -76,11 +76,13 @@ a.index-link {
     h1 {
         text-align: center;
         padding-top: 0 !important;
-        margin-top: 0;
-        margin-bottom: 1em;
+        margin: 0 2em 1em 2em;
         color: #fff;
         -webkit-margin-before: 0;
         -webkit-margin-after: 0;
+        @include media-query($on-palm) {
+            margin: 0;
+        }
     }
 }
 
