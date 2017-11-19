@@ -54,3 +54,39 @@ a.index-link {
 .author {
    /*  margin-left: 1em; */
 }
+
+.site-header{ 
+    padding-bottom: 5rem;
+    background: $brand-color;
+    nav {
+        
+        a {
+            color: #fff;
+        }
+        
+    }
+}
+.post-header {
+    position: relative;
+    width: 100vw;
+    left: calc(-50vw + 50%);
+    padding-bottom: 5em;
+    background: $brand-color;
+    margin-top: 0;
+    h1 {
+        text-align: center;
+        padding-top: 0 !important;
+        margin-top: 0;
+        margin-bottom: 1em;
+        color: #fff;
+        -webkit-margin-before: 0;
+        -webkit-margin-after: 0;
+    }
+}
+
+    
+
+.post-content {
+    margin: 2em 10px;
+    
+}

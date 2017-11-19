@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Submit
+title: Submit Article
 permalink: /submit-article/
 tags: submit
 ---
