@@ -112,7 +112,7 @@ text:
       sending:  'sending..'
       sent:     'Message sent!'
       error:    'Error!'
-  thanks: 'Thanks for submitting the article. We will review it and get back to you as soon as possible.'
+  thanks: 'Thanks for submitting the article. The article will be reviewed by the moderator.'
   og_locale: 'en_US'
 
 # Build settings
